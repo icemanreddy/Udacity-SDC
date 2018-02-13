@@ -1,0 +1,152 @@
+# packages in environment at /home/carnd/anaconda3/envs/carnd-term1:
+#
+blas                      1.1                    openblas    conda-forge
+bleach                    1.5.0                    py35_0    conda-forge
+bokeh                     0.12.5                   py35_0    conda-forge
+boto3                     1.4.4                    py35_0    conda-forge
+botocore                  1.5.39                   py35_0    conda-forge
+ca-certificates           2017.1.23                     1    conda-forge
+cairo                     1.14.8                        0  
+certifi                   2017.4.17                py35_0    conda-forge
+cffi                      1.10.0                   py35_0    conda-forge
+click                     6.7                      py35_0    conda-forge
+cloudpickle               0.2.2                    py35_2    conda-forge
+cryptography              1.7.1                    py35_0  
+cycler                    0.10.0                   py35_0    conda-forge
+dask                      0.14.1                   py35_0    conda-forge
+dbus                      1.10.20                       0  
+decorator                 4.0.11                   py35_0    conda-forge
+distributed               1.16.1                   py35_0    conda-forge
+docutils                  0.13.1                   py35_0    conda-forge
+entrypoints               0.2.2                    py35_1    conda-forge
+eventlet                  0.21.0                   py35_0    conda-forge
+expat                     2.1.0                         0  
+ffmpeg                    3.1.3                         0    menpo
+flask                     0.12                     py35_0    conda-forge
+flask-socketio            2.8.5                    py35_0    conda-forge
+fontconfig                2.12.1                        3  
+freetype                  2.5.5                         2  
+gettext                   0.19.7                        1    conda-forge
+glib                      2.50.2                        1  
+gmp                       6.1.2                         0    conda-forge
+graphite2                 1.3.9                         0    conda-forge
+greenlet                  0.4.12                   py35_0  
+gst-plugins-base          1.8.0                         0  
+gstreamer                 1.8.0                         0  
+h5py                      2.7.0               np112py35_0    conda-forge
+harfbuzz                  0.9.39                        2  
+hdf5                      1.8.17                       10    conda-forge
+heapdict                  1.0.0                    py35_0    conda-forge
+html5lib                  0.999                    py35_0    conda-forge
+icu                       54.1                          0  
+idna                      2.1                      py35_0    conda-forge
+imageio                   2.1.2                    py35_0    conda-forge
+ipykernel                 4.6.1                    py35_0    conda-forge
+ipython                   6.0.0                    py35_0    conda-forge
+ipython_genutils          0.2.0                    py35_0    conda-forge
+ipywidgets                5.1.5                    py35_0    menpo
+itsdangerous              0.24                     py35_1    conda-forge
+jbig                      2.1                           0  
+jedi                      0.10.0                   py35_0    conda-forge
+jinja2                    2.9.5                    py35_0    conda-forge
+jmespath                  0.9.2                    py35_0    conda-forge
+jpeg                      8d                            2  
+jsonschema                2.5.1                    py35_0    conda-forge
+jupyter                   1.0.0                    py35_0    conda-forge
+jupyter_client            5.0.1                    py35_0    conda-forge
+jupyter_console           5.1.0                    py35_0    conda-forge
+jupyter_core              4.3.0                    py35_0    conda-forge
+Keras                     1.2.1                     <pip>
+libffi                    3.2.1                         3    conda-forge
+libgcc                    5.2.0                         0  
+libgfortran               3.0.0                         1  
+libiconv                  1.14                          4    conda-forge
+libpng                    1.6.28                        0    conda-forge
+libsodium                 1.0.10                        0    conda-forge
+libtiff                   4.0.6                         2  
+libxcb                    1.12                          1  
+libxml2                   2.9.4                         0  
+locket                    0.2.0                    py35_1    conda-forge
+markupsafe                0.23                     py35_1    conda-forge
+matplotlib                2.0.2               np112py35_0  
+mistune                   0.7.4                    py35_0    conda-forge
+moviepy                   0.2.3.2                   <pip>
+msgpack-python            0.4.8                    py35_0    conda-forge
+nbconvert                 5.1.1                    py35_1    conda-forge
+nbformat                  4.3.0                    py35_0    conda-forge
+ncurses                   5.9                          10    conda-forge
+networkx                  1.11                     py35_0    conda-forge
+notebook                  5.0.0                    py35_0    conda-forge
+numpy                     1.12.1          py35_blas_openblas_200  [blas_openblas]  conda-forge
+olefile                   0.44                     py35_0    conda-forge
+openblas                  0.2.19                        2    conda-forge
+opencv                    3.1.0               np112py35_1  
+opencv3                   3.1.0                    py35_0    menpo
+openssl                   1.0.2k                        0    conda-forge
+pandas                    0.19.2              np112py35_1    conda-forge
+pandoc                    1.19.2                        0    conda-forge
+pandocfilters             1.4.1                    py35_0    conda-forge
+pango                     1.40.3                        1  
+partd                     0.3.7                    py35_0    conda-forge
+patsy                     0.4.1                    py35_0    conda-forge
+pcre                      8.39                          0    conda-forge
+pexpect                   4.2.1                    py35_0    conda-forge
+pickleshare               0.7.3                    py35_0    conda-forge
+pillow                    3.4.2                    py35_0  
+pip                       9.0.1                    py35_0    conda-forge
+pixman                    0.34.0                        0    conda-forge
+prompt_toolkit            1.0.14                   py35_0    conda-forge
+protobuf                  3.2.0                     <pip>
+psutil                    5.2.1                    py35_0    conda-forge
+ptyprocess                0.5.1                    py35_0    conda-forge
+pyasn1                    0.2.3                    py35_0    conda-forge
+pycparser                 2.17                     py35_0    conda-forge
+pygments                  2.2.0                    py35_0    conda-forge
+pyopenssl                 16.2.0                   py35_0    conda-forge
+pyparsing                 2.2.0                    py35_0    conda-forge
+pyqt                      5.6.0                    py35_2  
+python                    3.5.2                         5    conda-forge
+python-dateutil           2.6.0                    py35_0    conda-forge
+python-engineio           1.4.0                    py35_0    conda-forge
+python-socketio           1.7.4                    py35_0    conda-forge
+pytz                      2017.2                   py35_0    conda-forge
+pywavelets                0.5.2               np112py35_0    conda-forge
+pyyaml                    3.12                     py35_1    conda-forge
+pyzmq                     16.0.2                   py35_1    conda-forge
+qt                        5.6.2                         2  
+qtconsole                 4.3.0                    py35_0    conda-forge
+readline                  6.2                           0    conda-forge
+requests                  2.13.0                   py35_0    conda-forge
+s3fs                      0.0.9                    py35_0    conda-forge
+s3transfer                0.1.10                   py35_1    conda-forge
+scikit-image              0.13.0              np112py35_0    conda-forge
+scikit-learn              0.18.1          np112py35_blas_openblas_200  [blas_openblas]  conda-forge
+scipy                     0.19.0          np112py35_blas_openblas_200  [blas_openblas]  conda-forge
+seaborn                   0.7.1                    py35_0    conda-forge
+setuptools                33.1.1                   py35_0    conda-forge
+simplegeneric             0.8.1                    py35_0    conda-forge
+sip                       4.18                     py35_1    conda-forge
+six                       1.10.0                   py35_1    conda-forge
+sortedcontainers          1.5.3                    py35_0    conda-forge
+sqlite                    3.13.0                        1    conda-forge
+statsmodels               0.8.0               np112py35_0    conda-forge
+tblib                     1.3.2                    py35_0    conda-forge
+tensorflow-gpu            0.12.1                    <pip>
+terminado                 0.6                      py35_0    conda-forge
+testpath                  0.3                      py35_0    conda-forge
+Theano                    0.9.0                     <pip>
+tk                        8.5.19                        1    conda-forge
+toolz                     0.8.2                    py35_0    conda-forge
+tornado                   4.5.1                    py35_0    conda-forge
+tqdm                      4.11.2                    <pip>
+traitlets                 4.3.2                    py35_0    conda-forge
+wcwidth                   0.1.7                    py35_0    conda-forge
+webencodings              0.5                      py35_0    conda-forge
+werkzeug                  0.11.10                  py35_0    conda-forge
+wheel                     0.29.0                   py35_0    conda-forge
+widgetsnbextension        1.2.3                    py35_1    menpo
+xz                        5.2.2                         0    conda-forge
+yaml                      0.1.6                         0    conda-forge
+zeromq                    4.2.1                         1    conda-forge
+zict                      0.1.1                    py35_0    conda-forge
+zlib                      1.2.11                        0    conda-forge
