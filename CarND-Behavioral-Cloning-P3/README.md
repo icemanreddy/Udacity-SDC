@@ -12,12 +12,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./center_2018_02_13_00_06_42_397 "image"
+[image1]: ./center_2018_02_13_00_06_42_397.jpg "image"
 [image2]: ./center_2018_02_13_00_06_42_397_cropped.jpg "cropped"
 [image3]: ./data0hist_after.png "Histogram after correcting for small steering angles"
 [image4]: ./data2hist_after.png "Histogram after correcting for small steering angles"
 [image5]: ./data0hist_before.png "Histogram of sample data"
-[image6]: ./data2hist_before.png "Histogram of collected data""
+[image6]: ./data2hist_before.png "Histogram of collected data"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -99,7 +99,9 @@ On each subsequent iteration, the learning rate is set to 0.1*old_lr
 
 The training data was the sample data and then data from two runs of the track by me.
 
+
 ![][image1]
+
 
 ![][image2]
 ### Model Architecture and Training Strategy
