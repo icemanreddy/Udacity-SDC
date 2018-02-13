@@ -1,9 +1,11 @@
+from keras.models import load_model
+from keras.models import model_from_json
 import argparse
 import base64
 from datetime import datetime
 import os
 import shutil
-
+import cv2
 import numpy as np
 import socketio
 import eventlet
@@ -44,12 +46,18 @@ class SimplePIController:
 
 
 controller = SimplePIController(0.1, 0.002)
-set_speed = 9
+set_speed =8 
 controller.set_desired(set_speed)
-
-
+i=0
+def preprocess(image):
+	image=image[65:65+70,:,:]
+	res=cv2.resize(image,(200,66))
+	res=cv2.cvtColor(res,cv2.COLOR_RGB2YUV)
+	res=cv2.GaussianBlur(res,(3,3),0)
+	return res
 @sio.on('telemetry')
 def telemetry(sid, data):
+    global i
     if data:
         # The current steering angle of the car
         steering_angle = data["steering_angle"]
@@ -61,11 +69,15 @@ def telemetry(sid, data):
         imgString = data["image"]
         image = Image.open(BytesIO(base64.b64decode(imgString)))
         image_array = np.asarray(image)
-        steering_angle = float(model.predict(image_array[None, :, :, :], batch_size=1))
+        res_img=preprocess(image_array)
+        steering_angle = float(model.predict(res_img[None, :, :, :], batch_size=1))
 
-        throttle = controller.update(float(speed))
-
-        print(steering_angle, throttle)
+        #throttle = controller.update(float(speed))
+        if float(speed)>set_speed:
+            throttle=0
+        else:
+            throttle=0.2
+        print(steering_angle, throttle,speed)
         send_control(steering_angle, throttle)
 
         # save frame
@@ -113,14 +125,21 @@ if __name__ == '__main__':
     # check that model Keras version is same as local Keras version
     f = h5py.File(args.model, mode='r')
     model_version = f.attrs.get('keras_version')
+    
     keras_version = str(keras_version).encode('utf8')
-
+    #model_version=keras_version
     if model_version != keras_version:
         print('You are using Keras version ', keras_version,
               ', but the model was built using ', model_version)
 
+    #json_file = open(args.model+'_model.json')
+    #loaded_model_json = json_file.read()
+    #json_file.close()
+    #loaded_model = model_from_json(loaded_model_json)
+    #loaded_model.load_weights(args.model+'_weights.h5')
+    #print("Loaded model from disk")
+    #model = loaded_model
     model = load_model(args.model)
-
     if args.image_folder != '':
         print("Creating image folder at {}".format(args.image_folder))
         if not os.path.exists(args.image_folder):
